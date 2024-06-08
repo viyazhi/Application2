@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write About Yourself"
+        android:textStyle="bold|italic"
+        android:layout_marginVertical="10dp"
+        android:textSize="30sp"
+        android:textColor="#9C27B0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name"/>
+
+    <EditText
+        android:id="@+id/enterYourName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:hint="Enter your name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Number"/>
+
+    <EditText
+        android:id="@+id/YourNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your college name"/>
+
+    <EditText
+        android:id="@+id/enterYourCollegeName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="College Name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you studying?"/>
+
+    <RadioButton
+
+        android:id="@+id/yes"
+        android:layout_width="60dp"
+        android:layout_height="29dp"
+        android:checked="true"
+        android:text="Yes"
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="What have you covered?"/>
+
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move to Next Screen"
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="68dp"
+        android:layout_height="29dp"
+        android:text="No" />
+
+</LinearLayout>
